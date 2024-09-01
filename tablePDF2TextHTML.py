@@ -1,6 +1,7 @@
 #
 # Unstructured provides OCR-based and Transformer-based models to detect elements in the documents. 
 # The hi_res_model_name parameter supports the yolox - yolox_l0.05.onnx based on the current env
+# Reference: https://docs.unstructured.io/examplecode/codesamples/apioss/table-extraction-from-pdf
 #
 from unstructured.partition.pdf import partition_pdf
 
