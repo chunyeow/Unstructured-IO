@@ -1,3 +1,7 @@
+#
+# Unstructured provides OCR-based and Transformer-based models to detect elements in the documents. 
+# The hi_res_model_name parameter supports the yolox - yolox_l0.05.onnx based on the current env
+#
 from unstructured.partition.pdf import partition_pdf
 
 fname = "data/in/ME28-2016.pdf"
